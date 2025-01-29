@@ -34,7 +34,7 @@ app.post('/send-email', (req, res) => {
   }
 
   const mailOptions = {
-    from: 'saini.ujjwals007@gmail.com',
+    from: 'adityanegi748@gmail.com',
     to: email,
     subject: 'Congratulations! You’ve Successfully Subscribed to Daily Bhagavad Gita Shlokas!',
     text: `🎉 Hurray! You've officially subscribed to daily Bhagavad Gita Shlokas! 🌟✨
