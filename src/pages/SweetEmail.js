@@ -15,7 +15,7 @@ const EmailPusher = () => {
 
       if (email) {
         // First API call: Sending email to the backend: endpoint: /send-email
-        const response = await fetch('https://vedic-vani-backend.vercel.app/send-email', {
+        const response = await fetch('https://bharat-sanskriti-backend.vercel.app/send-email', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
