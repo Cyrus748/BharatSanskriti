@@ -57,7 +57,7 @@ function Home() {
       </div>
       <div className="relative mb-2">
         <img data-aos="fade-right" className="backdrop-opacity-1 absolute w-[28rem] max-w-full top-2 left-[12%] transform -translate-x-1/2" src={logounder} alt="logo" />
-        <p className="text-5xl font-[Alegreya] text-center">VedicVani</p>
+        <p className="text-5xl font-[Alegreya] text-center">BharatSanskriti</p>
         <AudioPlayer className="invisible" loop autoPlay src={song} volume={7} />
       </div>
 
