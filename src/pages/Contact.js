@@ -109,7 +109,7 @@ const Contact = () => {
               animate="show"
             >
             <p>
-              Welcome to Vedic Vani! We share the wisdom of the Vedic tradition. For questions, collaborations, or just to say hello, reach out to us. Seeking guidance, feedback, or partnership opportunities? Our team is here to help. Contact us using the details below. We value your thoughts and respond promptly. Thank you for your interest in Vedic Vani - we look forward to connecting with you!
+              Welcome to BharatSanskriti! We share the wisdom of the Vedic tradition. For questions, collaborations, or just to say hello, reach out to us. Seeking guidance, feedback, or partnership opportunities? Our team is here to help. Contact us using the details below. We value your thoughts and respond promptly. Thank you for your interest in Vedic Vani - we look forward to connecting with you!
               <span style={{ display: 'block', marginTop: '10px' }}>Developer - Ujjwal Saini</span>
             </p>
             </motion.div>
@@ -130,7 +130,7 @@ const Contact = () => {
           animate="show"
         >
         <p>
-          Welcome to Vedic Vani! We share the wisdom of the Vedic tradition. For questions, collaborations, or just to say hello, reach out to us. Seeking guidance, feedback, or partnership opportunities? Our team is here to help. Contact us using the details below. We value your thoughts and respond promptly. Thank you for your interest in Vedic Vani - we look forward to connecting with you!
+          Welcome to BharatSanskriti! We share the wisdom of the Vedic tradition. For questions, collaborations, or just to say hello, reach out to us. Seeking guidance, feedback, or partnership opportunities? Our team is here to help. Contact us using the details below. We value your thoughts and respond promptly. Thank you for your interest in Vedic Vani - we look forward to connecting with you!
           <span style={{ display: 'block', marginTop: '10px' }}>Developer - Ujjwal Saini</span>
         </p>
         </motion.div>
