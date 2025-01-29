@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=EB+Garamond:ital@1&family=Poppins:wght@500&family=Roboto+Condensed:wght@700&family=Young+Serif&display=swap');
+
+#text1{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  }
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*  CSS for Add Voice Reading Capability */
+.AudioReadbtn
+{
+  margin-right: 10px;
+}
+.AudioReadbtn :active
+{
+  transform: scale(.9);
+}
+
+.select-voice
+{
+  width: 50px;
+  /* background-color: orange; */
+  border-radius: 10px;
+}
+
+/* General Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px; 
+  height: 12px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #f0f4ff;
+  border-radius: 14px; /* More rounded corners */
+  border: 1px solid #e0e6ff; 
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #1a73e8, #0a47a9);
+  border-radius: 14px; 
+  border: 2px solid #f5c94e;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3), 0 0 12px rgba(245, 201, 78, 0.6); 
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+/* Thumb Hover Effect */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #0a47a9, #082b67); 
+  transform: scale(1.05); 
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.4), 0 0 18px rgba(245, 201, 78, 0.8); 
+}
+
+/* Scrollbar Corner */
+::-webkit-scrollbar-corner {
+  background: #f5c94e;
+}
