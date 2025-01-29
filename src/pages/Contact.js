@@ -145,30 +145,25 @@ const Contact = () => {
       >
       <div id="detail_fill_container" className="flex relative justify-center items-center" style={formContainerStyle}>
         {!isMobile ? (
-          {condition ? ( 
-  <div
-    className="visme_d"
-    data-title="Pop Up Email Subscription Form"
-    data-url="w4nd44rz-pop-up-email-subscription-form"
-    data-domain="forms"
-    data-full-page="false"
-    data-min-height="450px"
-    data-form-id="111401"
-  />
-) : (
-  <div
-    className="visme_d"
-    data-title="Pop Up Email Subscription Form"
-    data-url="w4nd44rz-pop-up-email-subscription-form?sidebar=true"
-    data-domain="forms"
-    data-full-page="false"
-    data-min-height="600px" 
-    data-form-id="111401"
-  />
-)}
-
-<script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
-
+          <div
+            className="visme_d"
+            data-title="Pop Up Email Subscription Form"
+            data-url="w4nd44rz-pop-up-email-subscription-form"
+            data-domain="forms"
+            data-full-page="false"
+            data-min-height="450px"
+            data-form-id="111401"
+          />
+          ) : (
+          <div
+          className="visme_d"
+          data-title="Pop Up Email Subscription Form"
+          data-url="w4nd44rz-pop-up-email-subscription-form?sidebar=true"
+          data-domain="forms"
+          data-full-page="false"
+          data-min-height="600px" 
+          data-form-id="111401"
+          />
         )}
       </div>
       </motion.div>
