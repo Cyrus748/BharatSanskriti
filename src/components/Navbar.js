@@ -20,7 +20,7 @@ const Navbar = () => {
             <p className="text-2xl font-[Alegreya] m-0 p-0 leading-none mb-[-4rem]">
               {" "}
               {/* Adjusted margin-bottom */}
-              VedicVani
+              BharatSanskriti
             </p>
             <img
               className="w-28 h-6 ml-1 mr-0 sm:ml-9 sm:mr-9"
